@@ -1,0 +1,205 @@
+body{
+    background-color: #F8FAFB;
+}
+.divback{
+    position: relative;
+    margin: 0px;
+}
+.background1{
+    background-image: url("../imagenes/desconectar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+}
+.background2{
+    background-image: url("../imagenes/globo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+
+}
+.background3{
+    background-image: url("../imagenes/team.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+
+}
+.background4{
+    background-image: url("../imagenes/contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+
+}
+.listamenu{
+    padding: 10px;
+    display:inline-block;
+    height: 70px;
+    text-align: center;
+    line-height: 29px;
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+}
+.divParrafo{
+    background-color:  #F8FAFB;
+}
+.itemsdiv1{
+    position: absolute;
+    margin-left: 500px;
+}
+.imgParrafo{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+.fontTitle{
+    display: block; 
+    display: block; 
+    font-family: Arial, Helvetica, sans-serif;
+    font: 300% cursive;
+    color: #8A8C8E;
+}
+.fontSubtitle{
+    display: block; font: 120% cursive;
+    color: #8A8C8E;
+    text-align: center;
+}
+.fontTitleParrafo{
+    display: block; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #31CCEF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#experiencia p{
+    font-size: 20px;
+    color: #3DB509;
+    width: 90%;
+    margin-left: 40px;
+    padding-left: 90px;
+}
+#experiencia span{
+    font-size: 20px;
+    color: #3DB509;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+}
+#experiencia q{
+    font-size: 20px;
+    text-align: center;
+    color:#8A8C8E;
+    padding: 20px;
+}
+pre::first-letter{
+    color: #31CCEF;
+    font-size: xx-large;
+}
+.imgRedonda {
+    width:130px;
+    height:130px;
+    border-radius:300px;
+    display: block;
+    margin: auto;
+}
+#hobbies{
+    display: flex;
+}
+#hobbies div{
+    width: 400px;
+    height: 450px;
+}
+#hobbies p{
+    color:#333232;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    font: normal normal normal 19px/1.4em spinnaker,sans-serif 
+
+}
+#hobbies span{
+    display: block;
+    color: #616161;
+    font-size: 16px;
+    width: 350;
+    padding: 20px;
+    margin-top: 5px;
+    text-align: justify;
+    font: normal normal normal 16px/1.4em spinnaker,sans-serif ;
+}
+a:link{
+    color: black;
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    text-decoration: none;
+}
+a:active{
+    color:#31CCEF;
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color:#31CCEF;
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    text-decoration: none;
+}
+.titleColumnTeam::first-letter{
+    color: #CC33CF;
+    font-size: xx-large;
+}
+#bitteam table{
+    margin: 30px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+}
+#bitteam td{
+    padding: 20px;
+}
+#bitteam th{
+    border-bottom: dotted ;
+    padding-bottom: 10px;
+    font: normal normal normal 18px/1.4em 'open sans',sans-serif;
+    text-align: center;
+}
+.titleColumnTeam{
+    font: normal normal normal 18px/1.4em 'open sans',sans-serif;
+    padding: 20px;
+}
+
+.parrafoColumnTeam{
+    font: normal normal normal 16px/1.4em 'open sans',sans-serif;
+    padding: 20px;
+}
+#divForm{
+    float: right;
+    display:inline-block;
+    padding-right: 200px;
+    padding-top: 80px;
+    font: normal normal normal 20px/1.4em 'open sans',sans-serif;
+}
+#divContact{
+    display: inline-block;
+    position: relative;
+    padding:100px;
+    font: normal normal normal 25px/1.4em 'open sans',sans-serif;
+}
+.footer{
+    height: 100px;
+}
+.footer p{
+    position: relative;
+    top: 70px;
+}
+

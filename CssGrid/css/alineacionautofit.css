@@ -1,0 +1,8 @@
+
+/*Autofill: Rellena nuestra fila con todas las columnas que pueda poner dentro y creara columnas implicitas*/
+.grid-container{
+    display: grid;
+    grid-gap:  20px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+

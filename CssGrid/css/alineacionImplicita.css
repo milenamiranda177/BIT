@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-gap:  20px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 100px 200px;
+    /* Cambia el flujo */
+    grid-auto-flow: row dense;
+}
+
+.grid-container .span2{
+    /*Expande el item 
+    grid-column: span 1;*/
+    grid-row: span 1;
+    background-color: yellow;
+}
+.grid-container .span3{
+    grid-row: span 3;
+    background: green;
+}

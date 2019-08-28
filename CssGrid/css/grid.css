@@ -1,0 +1,107 @@
+/*.grid-container{
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 200px ;
+    grid-template-rows: minmax(150px, auto) 1fr 1fr 1fr;
+    grid-gap: 10px;
+}*/
+
+/* minmax y repeat*/
+/*.grid-container{
+    display: grid;
+    grid-template-columns: 200px repeat(6, 1fr) minmax(200px, 1fr);
+    grid-template-rows: repeat(5, 1fr) ;
+    grid-gap: 20px;
+}*/
+/* posicionamiento de items*/
+/*.grid-container .items{
+    background: yellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}*/
+
+/*Nombre de columnas*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                        "sidebar1 contenido sidebar2"
+                        "sidebar1 widgets sidebar2"
+                        "footer footer footer";
+    grid-gap: 20px;
+}
+/* Se coloca en este estilo que va a ser para un item el nombre de la celda inicial y la final*/
+.grid-container .header{
+    background: yellow;
+    grid-column-start: header;
+    grid-column-end: header
+}
+
+/* Primera forma para ubicar los items*/
+/*.grid-container .sidebar1{
+    background: mediumorchid;
+    grid-column-start: sidebar1;
+    grid-column-end: sidebar1;
+    grid-row-start: sidebar1;
+    grid-row-end: sidebar1;
+
+}*/
+
+/* Segunda forma para ubicar los items*/
+/*.grid-container .sidebar1{
+    background: mediumorchid;
+    grid-column:sidebar1;
+    grid-row:sidebar1;
+}*/
+
+/* Tercera forma para ubicar los items*/
+.grid-container .sidebar1{
+    background: mediumorchid;
+    grid-area:sidebar1;
+
+}
+.grid-container .contenido{
+    background:olive;
+    grid-area:contenido;
+
+}
+.grid-container .widgets{
+    background:orangered;
+    grid-area:widgets;
+
+}
+.grid-container .sidebar2{
+    background:plum;
+    grid-area:sidebar2;
+
+}
+.grid-container .footer{
+    background:royalblue;
+    grid-area:footer;
+
+}
+
+.grid-container .items{
+    background: yellow;
+    /* hasta la segunda columna  desde la primera fila hasta la cuarta columna  y tercera fila*/
+    /*grid-area: 2 / 1 / 4 / 3;*/
+    /*Agrandar la columna*/
+    grid-column: span 3;
+    /*Posicionamiento del item en la columna y Agrandar la columna*/
+    grid-column: 2 /span 3;
+    /* Posicionamiento de la fila y agrandar la fila*/
+    grid-row: 2 / span 2;
+}
+
+.footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    width: 500px;
+}
+.footer label{
+    padding-top: 20px;
+}

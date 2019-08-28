@@ -1,0 +1,17 @@
+/*enlace no visitado*/
+a:link{
+    color: green;
+    background-color: yellow;
+    text-decoration: none;
+}
+a:visited{
+    color:pink;
+    background-color: cyan;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:red;
+    background-color: blue;
+    text-decoration: underline;
+}

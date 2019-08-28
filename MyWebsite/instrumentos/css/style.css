@@ -1,0 +1,59 @@
+p {
+    align-content: stretch;
+    font-size: 18px;
+}
+h3 {
+    text-align: center;
+    font-style: oblique;
+    color: #E71BF4;
+    height: 50px;
+    padding-top: 30px;
+    width: 100%;
+    font: normal normal normal 25px/1.4em spinnaker,sans-serif ;
+}
+body{
+    background-image: url("../imagenes/fondo3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.introUkulele{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.introUkulele > div{
+    font: normal normal normal 19px/1.4em spinnaker,sans-serif ;
+    width: 600px;
+    margin: 20px;
+    text-align: justify;
+}
+.introUkulele img{
+    border-radius: 300px;
+}
+.dataUkulele{
+    position: relative;
+    left: 10%;
+}
+.dataUkulele div{
+    font: normal normal normal 19px/1.4em spinnaker,sans-serif ;
+    text-align: justify;
+    width: 80%;
+}
+li{
+    padding: 10px;
+    font: normal normal normal 19px/1.4em spinnaker,sans-serif ;
+}
+iframe{
+    position: relative;
+    left:35%;
+}
+video{
+    position: relative;
+    left:35%;
+}
+audio{
+    position: relative;
+    left:35%;
+}
+
+

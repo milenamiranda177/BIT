@@ -1,0 +1,11 @@
+#c2cpopin .c2cpopin_title,#idz_chatbox_main #idz_chatbox_top, #idz_chatbar #idz_postmsg, .idz_msg_operator .idz_msg_operator_footer, .idz_msg_operator .idz_msgcontent, #idz_chatbar_mini, #idzInvitation #idzI{
+  background-color:#2d8f96;
+}
+
+@media (max-width: 480px){
+
+  #c2cpopin .c2cpopin_title,#idz_chatglobal #idz_chatbox_main #idz_chatbox_top .idz_action_r, .idz_msg_operator .idz_msgcontent, .idz_msg_operator .idz_msgcontent .idz_msg_operator_footer, #idz_chatbar_mini, #idzInvitation #idzI.idzI_medium #idzI_main, #idzInvitation .idzI_title{
+    background-color:#2d8f96 !important;
+  }
+
+}
